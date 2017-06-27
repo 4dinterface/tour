@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Field, reduxForm } from 'redux-form';
 
 class TravelsFilter extends Component {
   render() {
@@ -186,9 +185,9 @@ class TravelsFilter extends Component {
 }
 
 
-TravelsFilter = reduxForm({
+/*TravelsFilter = reduxForm({
   travelsFilter: 'travelsFilter' // a unique name for this form
-})(TravelsFilter);
+})(TravelsFilter);*/
 
 export default TravelsFilter;
 

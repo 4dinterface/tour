@@ -20,8 +20,8 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
       <Switch>
+        <Route path="/detail" component={DetailPage} />
         <Route path="/"  component={App} />
-        <Route path="detail" component={DetailPage} />
       </Switch>
     </Router>    
   </Provider>,
