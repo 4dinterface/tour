@@ -44,7 +44,7 @@ class Header extends Component {
                                 <div className="md-form">                                                     
                                     <div style={{padding:7, background:"green"}} onClick={_=>this.onSearch()}> SEARCH </div>
                                 </div>
-                            </div>                            
+                            </div>                           
 
                         </div>                    
                     </form>
