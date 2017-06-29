@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header';
+import AirSection from "./AirSection"
+import BookingSection from "./BookingSection"
 
 class DetailPage extends Component {
   render() {
@@ -55,75 +57,11 @@ class DetailPage extends Component {
                 </p>                
                 
                 <br/>   
-                <section>
-                  <h3><strong>Перелет</strong></h3>                                              
-                  <hr/>
-                  <table style={{width:"100%"}}>
-                    <tbody>
-                      <tr>
-                        <td>
-                           <span> 04:20 </span> <br/> 
-                          29.06.17, Чт. <br/> 
-                          VKO  Москва
-                        </td>    
-
-                        <td>
-                          <img src="http://lifestylerelief.com/images/travel.png" style={{width:"32px",height:"32px"}}/>
-                        </td>   
-
-                        <td>
-                          <span>- - - <br/> </span> <br/>  28.06.17, <br/> Ср. AYT  Анталия
-                        </td>   
-
-                        
-                        
-                        <td>
-                          <i className="airlineLogo" style={{backgroundImage:"url('//gate.travelata.ru/photos/airlines/295.png')"}}> </i>
-                        </td>  
-
-                        <td>
-                          <span> 04:20 </span> <br/> 
-                          29.06.17, Чт. <br/> 
-                          VKO  Москва
-                        </td>    
-
-                        <td>
-                          <img src="http://lifestylerelief.com/images/travel.png" style={{width:"32px",height:"32px"}}/>
-                        </td>  
-
-                        <td>
-                        <span>- - - <br/> </span> <br/>  28.06.17, <br/> Ср. AYT  Анталия
-                        </td>    
-                        
-                        <td>
-                          <i className="airlineLogo" style={{backgroundImage:"url('//gate.travelata.ru/photos/airlines/295.png')"}}> </i>
-                        </td>  
-
-                      </tr>
-                    </tbody>
-                  </table>  
-                  <hr/>    
-                </section>                                                  
-
+                <AirSection/>                                    
                 <br/>              
+                <BookingSection/>                
+                <br/>            
                 
-
-                <h3><strong>Отель</strong></h3>
-                <div className="row">                  
-                  <img src="http://www.intrust-tour.ru/images/hotels/kusadasi/1128_image_2.jpg" className="col-md-6" alt="" style={{height:"300px"}}/>
-                  <div className="col-md-4">
-                    <p>
-                      Proin tempor id mauris vulputate mattis. Vivamus venenatis felis sed libero posuere. A interdum augue porttitor. 
-                      Suspendisse eleifend euismod purus vel tempus. Duis fermentum sapien a justo imperdiet cursus. Etiam porta metus odio.
-                    </p>
-                  </div>                  
-                </div>  
-                
-                
-                <img src="http://www.intrust-tour.ru/images/hotels/kusadasi/1128_image_2.jpg"  alt="" style={{width:"150px", display:"inline-block"}}/>
-                <img src="http://www.intrust-tour.ru/images/hotels/kusadasi/1128_image_2.jpg"  alt="" style={{width:"150px", display:"inline-block"}}/>
-
-                <span style={{opacity:"0"}} >http://travelata.ru/turkey/resorts/alanya/hotels/sunside-beach-ex-blue-moon-beach-hotel-4.html#?fromCity=2&dateFrom=28.06.2017&dateTo=04.07.2017&nightFrom=7&nightTo=8&priceFrom=6000&priceTo=1000000&adults=2&meal=all&hot=true&asyncSearch=false&activeTab=tours</span>              
               </div>
             </div>
           </div>  
